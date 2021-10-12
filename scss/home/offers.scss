@@ -1,0 +1,72 @@
+.offerWrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 874px;
+  padding-top: 150px;
+  padding-right: 505px;
+
+  .offerContain {
+    height: 674px;
+    min-width: 505px;
+    display: inline-block;
+    flex-direction: column;
+
+    h1 {
+      font-size: 30;
+      font-family: "Proxima";
+      padding-bottom: 30px;
+    }
+
+    span {
+      border-bottom: 2px solid black;
+    }
+
+    .offerInfo {
+      position: relative;
+      width: 505px;
+      height: 287px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 45px;
+
+      .offerHeader {
+        width: 306px;
+        margin-left: 15px;
+        h1 {
+          font-size: 30px;
+          white-space: nowrap;
+        }
+      }
+
+      .offerImage {
+        width: 199px;
+        height: 287px;
+      }
+
+      .offerAbout {
+        width: 290px;
+        height: 131px;
+        position: absolute;
+        margin-left: 210px;
+        margin-top: 50px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      .learnMore {
+        height: 40px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: white;
+        background-color: #79addc;
+        font-size: 15px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 210px;
+      }
+    }
+  }
+}

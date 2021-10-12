@@ -1,0 +1,67 @@
+.style nav {
+  border-bottom: 2px solid #000;
+}
+.style .logo {
+  color: black;
+}
+.style .links a {
+  color: black;
+}
+
+.about {
+  height: 500px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.about .aboutSection h1 {
+  font-size: 60px;
+}
+.about .aboutSection h1 span {
+  border-bottom: 2px solid black;
+}
+.about .aboutSection p {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.quotes {
+  height: 400px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.quotes .clientRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.quotes h1 {
+  font-size: 40px;
+}
+.quotes h1 span {
+  border-bottom: 2px solid black;
+}
+.quotes .clientImage {
+  width: 260px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.quotes .clientText {
+  width: 320px;
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+.quotes .clientName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 130px;
+  color: #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer {
+  margin-top: 180px;
+}

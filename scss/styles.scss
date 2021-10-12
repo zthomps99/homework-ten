@@ -1,0 +1,16 @@
+@import "mixins.scss";
+@import "structure.scss";
+@import "home/home.scss";
+@import "nav/nav.scss";
+@import "components/components.scss";
+@import "home/footer.scss";
+@import "home/about.scss";
+@import "components/tourpackages.scss";
+@import "home/offers.scss";
+@import "home/blog.scss";
+@import "home/contact.scss";
+@font-face {
+  font-family: "Proxima";
+  src: url("../fonts/ProximaNovaScOsfExtraCondensed.ttf") format("truetype");
+  font-weight: bold;
+}
